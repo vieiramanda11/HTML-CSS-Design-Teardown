@@ -35,6 +35,7 @@ p {
     font-size: 28px;
     line-height: 35px;
     margin: 10px 0;
+    padding-bottom: 30px;
 }
 
 .latestPosts p, .articles p {
@@ -150,6 +151,34 @@ p {
     padding-top: 30px;
     text-align: center;
     width: 500px;
+}
+
+.footer h4 {
+    margin: 40px 0 90px 0;
+    text-align: center;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: disc;
+    list-style-position: outside;
+
+}
+
+
+.footer ul li{
+    color: #ffffff;
+    float: left;
+    font-family: 'Bitter', serif;
+    font-size: 23px;
+    line-height: 41px;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.first {
+    list-style: none;
 }
 
 /*LAYOUT*/
