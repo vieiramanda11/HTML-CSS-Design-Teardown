@@ -30,19 +30,19 @@ p {
     width: 60%;
 }
 
-.latestPosts h3 {
+.latestPosts h3, .articles h3 {
     color: #111111;
     font-size: 28px;
     line-height: 35px;
     margin: 10px 0;
 }
 
-.latestPosts p {
+.latestPosts p, .articles p {
     color: #333333;
     font-size: 20px;
     font-weight: 300;
     line-height: 36px;
-    padding-top: 50px;
+    /*padding-top: 50px;*/
 }
 
 .smashingMembers h3 {
@@ -85,6 +85,73 @@ p {
     line-height: 28px;
     text-align: center;
 }
+
+.seeAllLatestArticles p {
+    font-size: 17px;
+    text-align: center;
+}
+
+.comunityLinks h4 {
+    color: #333333;
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 50px;
+    padding: 20px 0;
+    width: 858px;
+}
+
+.comunityLinks p {
+    font-size: 21px;
+    line-height: 35px;
+    text-align: left;
+    padding: 20px 0;
+    width: 858px;
+}
+
+.designSystem h2 {
+    color: white;
+    font-size: 47px;
+    margin: 20px;
+}
+
+.designSystem p {
+    color: white;
+    font-size: 22px;
+    margin: 30px;
+    width: 695px;
+}
+
+.designSystem h3 {
+    background-color: #303030;
+    color: white;
+    font-size: 25px;
+    height: 66px;
+    margin-left: 30px;
+    padding-top: 15px;
+    text-align: center;
+    width: 278px;
+}
+
+.smashingNewsletter h3 {
+    font-size: 45px;
+    line-height: 54px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.smashingNewsletter p {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 36px;
+    padding-top: 30px;
+    text-align: center;
+    width: 500px;
+}
+
 /*LAYOUT*/
 
 .nav {
@@ -162,7 +229,10 @@ p {
 }
 
 .seeAllLatestArticles {
+    align-items: center;
     background-color: #D3D3D3;
+    display: flex;
+    justify-content: center;
     height: 255px;
     width: 100%;
 }
@@ -187,9 +257,13 @@ p {
 }
 
 .comunityLinks {
+    align-items: flex-end;
     background-color: #D3D3D3;
     border: 1px solid white;
-    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    height: 400px;
     width: 100%;
 }
 
@@ -202,18 +276,24 @@ p {
 .articles {
     background-color: #D3D3D3;
     border: 1px solid white;
+    padding: 50px;
 }
 
 .designSystem {
     background-color: #A9A9A9;
     border: 1px solid white;
     height: 480px;
+    padding-left: 90px;
+    padding-top: 70px;
     width: 100%;
 }
 
 .smashingNewsletter {
+    align-items: center;
     background-color: #A9A9A9;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
     float: right;
     height: 600px;
     margin-right: 50px;
