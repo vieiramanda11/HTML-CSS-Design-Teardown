@@ -10,9 +10,85 @@
     width: 100%;
 }
 
+
 .article {
     background-color: #A9A9A9;
+    border: 1px solid white;
     float: left;
-    height: 300px;
+    height: 795px;
     width: 50%;
+}
+
+.LAHeader {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 95px;
+    left: 50%;
+    margin-left: -170px;
+    position: absolute;
+    top: 25%;
+    width: 340px;
+}
+
+.LAH1 {
+    background-color: #303030;
+    height: 50px;
+    width: 340px;
+}
+
+.LAH2 {
+    background-color: #303030;
+    height: 45px;
+    width: 125px;
+}
+
+.latestPostsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 550px;
+    width: 100%;
+}
+
+.latestPosts {
+    background-color: #D3D3D3;
+    border: 1px solid white;
+
+}
+
+.smashingMembers {
+    background-color: #A9A9A9;
+    border-radius: 20px;
+    float: right;
+    height: 675px;
+    margin-right: 50px;
+    width: 900px;
+}
+
+.NewOnSmash {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.seeAllLatestArticles {
+    background-color: #D3D3D3;
+    height: 255px;
+    width: 100%;
+}
+
+.pdfPreview {
+    background-color: #A9A9A9;
+    border: 1px solid white;
+    height: 1030px;
+    width: 100%;
+}
+
+.pdfBtn {
+    background-color: #303030;
+    height: 70px;
+    left: 50%;
+    margin-left: -212.5px;
+    margin-top: 450px;
+    position: absolute;
+    width: 425px;
 }
