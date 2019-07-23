@@ -92,3 +92,44 @@
     position: absolute;
     width: 425px;
 }
+
+.comunityLinks {
+    background-color: #D3D3D3;
+    border: 1px solid white;
+    height: 480px;
+    width: 100%;
+}
+
+.authorsSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 450px 450px 450px;
+}
+
+.articles {
+    background-color: #D3D3D3;
+    border: 1px solid white;
+}
+
+.designSystem {
+    background-color: #A9A9A9;
+    border: 1px solid white;
+    height: 480px;
+    width: 100%;
+}
+
+.smashingNewsletter {
+    background-color: #A9A9A9;
+    border-radius: 20px;
+    float: right;
+    height: 600px;
+    margin-right: 50px;
+    width: 750px;
+}
+
+.footer {
+    background-color: #A9A9A9;
+    border: 1px solid white;
+    height: 690px;
+    width: 100%;
+}
