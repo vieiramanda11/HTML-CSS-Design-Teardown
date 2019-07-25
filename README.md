@@ -1,6 +1,6 @@
 # HTML-CSS-Design-Teardown
 
-Design Teardown Clone
+The goal was to show the visual weigth of the Smashing Magazine Page. 
 
 Built with:
 * HTML

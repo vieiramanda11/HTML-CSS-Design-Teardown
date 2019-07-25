@@ -34,13 +34,37 @@ p {
     width: 75px;
 }
 
+.image-2 {
+    background-color: #333333;
+    height: 75px;
+    float: left;
+    margin-left: -85px;
+    opacity: 0.7;
+    width: 75px;
+}
+.image-3 {
+    background-color: #333333;
+    height: 150px;
+    float: left;
+    opacity: 0.7;
+    margin-right: 100px;
+    width: 150px;
+}
+
 
 .articleContainer h2 {
     font-size: 43px;
     width: 60%;
 }
 
-.latestPosts h3, .articles h3 {
+.latestPosts h3 {
+    color: #111111;
+    font-size: 28px;
+    line-height: 35px;
+    margin: 10px 0;
+    padding-bottom: 30px;
+}
+.articles h3 {
     color: #111111;
     font-size: 28px;
     line-height: 35px;
@@ -48,12 +72,19 @@ p {
     padding-bottom: 30px;
 }
 
-.latestPosts p, .articles p {
+.latestPosts p {
     color: #333333;
     font-size: 20px;
     font-weight: 300;
     line-height: 36px;
-    /*padding-top: 50px;*/
+}
+
+.articles p {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 36px;
+    margin-bottom: 20px;
 }
 
 .smashingMembers h3 {
@@ -181,7 +212,7 @@ p {
     color: #ffffff;
     float: left;
     font-family: 'Bitter', serif;
-    font-size: 23px;
+    font-size: 20px;
     line-height: 41px;
     margin: 0 15px;
     text-align: center;
@@ -305,11 +336,12 @@ p {
 }
 
 .comunityLinks {
-    align-items: flex-end;
+    align-items: center;
     background-color: #D3D3D3;
     border: 1px solid white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     height: 400px;
     width: 100%;
 }
@@ -323,7 +355,7 @@ p {
 .articles {
     background-color: #D3D3D3;
     border: 1px solid white;
-    padding: 50px;
+    padding: 50px 150px;
 }
 
 .designSystem {
