@@ -1,0 +1,387 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* TYPOGRAPHY */
+
+h1, h2, h3, h4 {
+    color: white;
+    font-family: 'Signika', sans-serif; 
+}
+
+p {
+    font-family: 'Bitter', serif;
+}
+
+
+
+.LAHeader h1 {
+    margin: auto;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+.image {
+    background-color: #333333;
+    height: 75px;
+    opacity: 0.7;
+    position: relative;
+    left: 12%;
+    top: -20%;
+    width: 75px;
+}
+
+.image-2 {
+    background-color: #333333;
+    height: 75px;
+    float: left;
+    margin-left: -85px;
+    opacity: 0.7;
+    width: 75px;
+}
+.image-3 {
+    background-color: #333333;
+    height: 150px;
+    float: left;
+    opacity: 0.7;
+    margin-right: 100px;
+    width: 150px;
+}
+
+
+.articleContainer h2 {
+    font-size: 43px;
+    width: 60%;
+}
+
+.latestPosts h3 {
+    color: #111111;
+    font-size: 28px;
+    line-height: 35px;
+    margin: 10px 0;
+    padding-bottom: 30px;
+}
+.articles h3 {
+    color: #111111;
+    font-size: 28px;
+    line-height: 35px;
+    margin: 10px 0;
+    padding-bottom: 30px;
+}
+
+.latestPosts p {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.articles p {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+
+.smashingMembers h3 {
+    font-size: 45px;
+    line-height: 54px;
+    margin-top: 300px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.smashingMembers p {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 36px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.pdfPreview h3 {
+    font-size: 49px;
+    line-height: 59px;
+    margin-top: 450px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.pdfPreview p {
+    color: white;
+    font-size: 25px;
+    line-height: 42px;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    width: 792px;
+}
+
+.pdfBtn h4 {
+    font-size: 25px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.seeAllLatestArticles p {
+    font-size: 17px;
+    text-align: center;
+}
+
+.comunityLinks h4 {
+    color: #333333;
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 50px;
+    padding: 20px 0;
+    width: 858px;
+}
+
+.comunityLinks p {
+    font-size: 21px;
+    line-height: 35px;
+    text-align: left;
+    padding: 20px 0;
+    width: 858px;
+}
+
+.designSystem h2 {
+    color: white;
+    font-size: 47px;
+    margin: 20px;
+}
+
+.designSystem p {
+    color: white;
+    font-size: 22px;
+    margin: 30px;
+    width: 695px;
+}
+
+.designSystem h3 {
+    background-color: #303030;
+    color: white;
+    font-size: 25px;
+    height: 66px;
+    margin-left: 30px;
+    padding-top: 15px;
+    text-align: center;
+    width: 278px;
+}
+
+.smashingNewsletter h3 {
+    font-size: 45px;
+    line-height: 54px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.smashingNewsletter p {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 36px;
+    padding-top: 30px;
+    text-align: center;
+    width: 500px;
+}
+
+.footer h4 {
+    margin: 40px 0 90px 0;
+    text-align: center;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: disc;
+    list-style-position: outside;
+
+}
+
+
+.footer ul li{
+    color: #ffffff;
+    float: left;
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    line-height: 41px;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.first {
+    list-style: none;
+}
+
+/*LAYOUT*/
+
+.navbar {
+    align-items: center;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    height: 140px;
+    width: 100%;
+}
+
+.nav-links {
+    background-color: #333333;
+    height: 120px;
+    width: 120px;
+}
+
+.article {
+    align-items: center;
+    background-color: #A9A9A9;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    float: left;
+    height: 795px;
+    width: 50%;
+}
+
+.LAHeader {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 95px;
+    left: 50%;
+    margin-left: -170px;
+    position: absolute;
+    top: 25%;
+    width: 340px;
+}
+
+
+.LAH1 {
+    align-items: center;
+    background-color: #303030;
+    display: flex;
+    height: 50px;
+    width: 340px;
+}
+
+.LAH2 {
+    align-items: center;
+    background-color: #303030;
+    display: flex;
+    height: 45px;
+    width: 125px;
+}
+
+.latestPostsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 550px;
+    width: 100%;
+}
+
+.latestPosts {
+    background-color: #D3D3D3;
+    border: 1px solid white;
+    padding: 50px;
+}
+
+.smashingMembers {
+    background-color: #A9A9A9;
+    border-radius: 20px;
+    float: right;
+    height: 675px;
+    margin-right: 50px;
+    padding: 0px 150px;
+    width: 900px;
+}
+
+.NewOnSmash {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.seeAllLatestArticles {
+    align-items: center;
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: center;
+    height: 255px;
+    width: 100%;
+}
+
+.pdfPreview {
+    background-color: #A9A9A9;
+    border: 1px solid white;
+    height: 1030px;
+    width: 100%;
+}
+
+.pdfBtn {
+    align-items: center;
+    background-color: #303030;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    left: 50%;
+    margin-left: -212.5px;
+    position: absolute;
+    width: 425px;
+}
+
+.comunityLinks {
+    align-items: center;
+    background-color: #D3D3D3;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+}
+
+.authorsSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 450px 450px 450px;
+}
+
+.articles {
+    background-color: #D3D3D3;
+    border: 1px solid white;
+    padding: 50px 150px;
+}
+
+.designSystem {
+    background-color: #A9A9A9;
+    border: 1px solid white;
+    height: 480px;
+    padding-left: 90px;
+    padding-top: 70px;
+    width: 100%;
+}
+
+.smashingNewsletter {
+    align-items: center;
+    background-color: #A9A9A9;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    height: 600px;
+    margin-right: 50px;
+    width: 750px;
+}
+
+.footer {
+    background-color: #A9A9A9;
+    border: 1px solid white;
+    height: 690px;
+    width: 100%;
+}

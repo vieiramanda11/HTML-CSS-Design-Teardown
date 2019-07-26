@@ -1,11 +1,13 @@
 # HTML-CSS-Design-Teardown
 
-Project from Microverse.
+The goal was to show the visual weigth of the Smashing Magazine Page. 
 
-* The goal was to make a design teardown from smashing pumpkings website
+Built with:
+* HTML
+* CSS
 
-[Livepage:]()
+[Live Version](https://vieiramanda11.github.io/HTML-CSS-Design-Teardown/)
 
 Authors:
-
-@vieiramanda11 @allun26
+[vieiramanda11](https://github.com/vieiramanda11)
+[allun26](https://github.com/allun26)
